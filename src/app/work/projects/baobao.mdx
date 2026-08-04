@@ -1,0 +1,32 @@
+---
+title: "宝宝饱饱 · 个性化婴幼儿辅食"
+publishedAt: "2026-08-04"
+summary: "根据宝宝月龄、禁忌与喂养记录，生成可跟做、可连续对话的个性化辅食视频。"
+images:
+  - "/images/projects/baobao/02-home.png"
+  - "/images/projects/baobao/03-analysis.png"
+team:
+  - name: "孟祥康"
+    role: "AI 产品与全栈开发"
+    avatar: "/images/avatar-mxk.png"
+    linkedIn: "https://github.com/mmmmxxkk"
+link: "https://baobao-phi.vercel.app/"
+---
+
+## 问题
+
+辅食内容很多，但家长真正需要的是“现在适不适合我的宝宝、今天怎么做”。通用食谱无法结合月龄、过敏和历史喂养情况。
+
+## 方案
+
+产品先建立宝宝档案，再通过多模型分析生成个性化食谱、操作步骤、语音和视频，并在烹饪中保持连续对话。
+
+## 工程路径
+
+- Next.js 承载个人档案、生成与烹饪交互
+- Qwen 与 DeepSeek 处理多模态理解和结构化食谱
+- FFmpeg 与腾讯 TTS 完成视频、字幕与儿童语音管线
+
+## 结果
+
+完成从个人资料、AI 生成、视频处理到烹饪对话的端到端产品流程，并提供公网体验。

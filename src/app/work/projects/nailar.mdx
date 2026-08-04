@@ -1,0 +1,33 @@
+---
+title: "NailAR · 实时美甲试戴"
+publishedAt: "2026-08-04"
+summary: "在浏览器中实时识别手部和指甲，将美甲设计以 AR 方式稳定叠加到用户画面。"
+images:
+  - "/images/projects/nailar/01-home.png"
+  - "/images/projects/nailar/02-inspiration.png"
+team:
+  - name: "孟祥康"
+    role: "计算机视觉与前端"
+    avatar: "/images/avatar-mxk.png"
+    linkedIn: "https://github.com/mmmmxxkk"
+link: "https://nail-ar-jade.vercel.app/"
+---
+
+## 问题
+
+平面样图难以回答“这款美甲在我手上是什么样”，而传统 AR 应用又常需要下载 App 或专用设备。
+
+## 方案
+
+NailAR 在浏览器中完成摄像头采集、手部关键点与指甲区域识别，再使用 Canvas 将美甲素材随手部姿态实时叠加。
+
+## 技术路径
+
+- MediaPipe 跟踪手部关键点
+- Roboflow 识别指甲区域
+- Canvas 完成素材的尺度、旋转和透视叠加
+- 通过公网 Web 应用降低体验门槛
+
+## 结果
+
+完成一个无需下载的实时美甲试戴体验，并将视觉模型、渲染和用户选款整合为完整产品路径。
